@@ -30,7 +30,7 @@ public class HW3 {
 		for (int i=0; i<edgeArray.length; i++) {
 //			檢查輸入的值是否為數字，不是的話就重新輸入到是數字為止。
 			while (!sc.hasNextInt()) {
-				System.out.println("It's not an integer!");
+				System.out.println("請輸入整數！");
 				sc.next();
 			}
 			edgeArray[i] = sc.nextInt();
