@@ -86,7 +86,7 @@ public class HW3 {
 //		   （進階功能：產生0～100亂數，每次猜就會提示你是大於還是小於正確答案）
 		System.out.println("第二題：");
 		System.out.println("開始猜數字吧！（0～9）");
-		int ans = (int)(Math.random() * 9) + 1;
+		int ans = (int)(Math.random() * 10);
 		int guess;
 		while (true) {
 			if (sc.hasNextInt()) {
