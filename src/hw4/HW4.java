@@ -39,6 +39,7 @@ public class HW4 {
 			q3();
 			break;
 		case "4":
+			q4(sc);
 			break;
 		case "5":
 			q5(sc);
