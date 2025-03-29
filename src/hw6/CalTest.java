@@ -46,6 +46,15 @@ public class CalTest {
 	 * 
 	 */
 	public static void main(String[] args) {
+		System.out.println("******************************************************************************");
+		System.out.println("**   ****   **   **** ****   **** **********   **     ****** *** * *** **   **");
+		System.out.println("* *** ***** * *** **  *** *** **  ********* *** * ********** *** * *** * *** *");
+		System.out.println("* ********* * *** *** *** **  *** ************* * ********** *** * * * * *****");
+		System.out.println("* ********* *     *** *** * * *** **********   **    *******     * * * *    **");
+		System.out.println("* ********* * *** *** ***  ** *** ************* ***** ****** *** * * * * *** *");
+		System.out.println("* *** * *** * *** *** *** *** *** ********* *** * *** ****** *** *  *  * *** *");
+		System.out.println("**   ***   ** *** **   ***   ***   **     **   ***   ******* *** * *** **   **");
+		System.out.println("******************************************************************************");
 		Scanner sc = new Scanner(System.in);
 		Calculator c = new Calculator();
 		while(true) {
@@ -62,9 +71,11 @@ public class CalTest {
 				continue;
 			} catch (ArithmeticException e) {
 				System.out.println(e.getMessage());
+				sc.nextLine();
 				continue;
 			} catch (CalException e) {
 				System.out.println(e.getMessage());
+				sc.nextLine();
 				continue;
 			}
 		}

@@ -8,7 +8,7 @@ public class Calculator {
 	public void setX(int x) {
 		this.x = x;
 	}
-	public void setY(int y) {
+	public void setY(int y) throws ArithmeticException {
 		if (y>=0) {
 			this.y = y;
 		} else {
