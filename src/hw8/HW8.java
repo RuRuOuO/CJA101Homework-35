@@ -151,7 +151,6 @@ public class HW8 {
 		}
 		Iterator objs2 = trainTreeSet.iterator();
 		while (objs2.hasNext()) {
-//			System.out.println(objs2.next());
 			((Train) objs2.next()).getTrainDetail();
 		}
 	}
